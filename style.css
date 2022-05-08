@@ -1,19 +1,20 @@
 html,
 body {
-  height: 100%;
-  background-color: #000;
-  background-image: url("background-logo-repeating.png");
+    height: 100%;
+    background-color: #000;
+    background-image: url("background-logo-repeating.png");
 }
 
 .te-main-container {
-  margin-top: 10px;
+    margin-top: 3rem;
 }
 
-.embed-responsive{
-  position: relative;
-  padding-top: 56.25%;
+.embed-responsive {
+    position: relative;
+    padding-top: 56.25%;
 }
-.youtube{
+
+.youtube {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -23,9 +24,14 @@ body {
     border: 0;
 }
 
-.header-prayer{
-  color: #d3d3d3;
-  font-family: 'Cormorant Garamond', serif;
-  margin: 3.5rem 0rem;
-  text-align: center;
+.header-prayer {
+    color: #d3d3d3;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+.horizontal-line {
+    color: #d3d3d3;
+    margin: 5rem auto;
+    width: 80%;
 }
