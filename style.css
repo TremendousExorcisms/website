@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   background-color: #000;
+  background-image: url("background-logo-repeating.png");
 }
 
 .te-main-container {
