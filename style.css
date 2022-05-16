@@ -25,13 +25,33 @@ body {
 }
 
 .header-prayer {
-    color: #d3d3d3;
+    color: #929292;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    font-size: 2rem;
+}
+
+.horizontal-line {
+    color: #929292;
+    margin: 3rem auto 5rem auto;
+    width: 80%;
+}
+
+.game-description-text {
+    color: #dbdbdb;
+}
+
+.game-description-text {
+    font-size: 1.5rem;
+    color: #929292;
     font-family: 'Cormorant Garamond', serif;
     text-align: center;
 }
 
-.horizontal-line {
-    color: #d3d3d3;
-    margin: 5rem auto;
-    width: 80%;
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url("https://github.com/TremendousExorcisms/website/blob/main/CormorantGaramond-SemiBoldItalic.ttf") format('truetype');
+    font-weight: 600;
+    font-style: italic;
 }
