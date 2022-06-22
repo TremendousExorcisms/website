@@ -2,7 +2,9 @@ html,
 body {
     height: 100%;
     background-color: #000;
-    background-image: url("background-logo-repeating.png");
+    background-image: url("tv-vignette.jpg");
+    background-position-x: -600px;
+    background-position-y: -1050px;
 }
 
 .te-main-container {
