@@ -1,59 +1,68 @@
-html,
-body {
-    height: 100%;
-    background-color: #000;
-    background-image: url("tv-vignette.jpg");
-    background-position-x: -600px;
-    background-position-y: -1050px;
-}
-
-.te-main-container {
-    margin-top: 3rem;
-}
-
-.embed-responsive {
-    position: relative;
-    padding-top: 56.25%;
-}
-
-.youtube {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
-.header-prayer {
-    color: #929292;
-    font-family: 'Cormorant Garamond', serif;
-    text-align: center;
-    margin: 2rem 0 1rem 0;
-    font-size: 2rem;
-}
-
-.horizontal-line {
-    color: #929292;
-    margin: 3rem auto 2rem auto;
-    width: 80%;
-}
-
-.game-description-text {
-    color: #dbdbdb;
-}
-
-.game-description-text {
-    font-size: 1.5rem;
-    color: #929292;
-    font-family: 'Cormorant Garamond', serif;
-    text-align: center;
-}
-
-@font-face {
-    font-family: 'Cormorant Garamond';
-    src: url("https://github.com/TremendousExorcisms/website/blob/main/CormorantGaramond-SemiBoldItalic.ttf") format('truetype');
-    font-weight: 600;
-    font-style: italic;
-}
+        html,
+        body {
+            height: 100%;
+            background-color: #000;
+            /* background-image: url("tv-vignette.jpg"); */
+            background-position-x: -600px;
+            background-position-y: -1050px;
+        }
+        
+        .te-main-container {
+            margin-top: 3rem;
+        }
+        
+        .embed-responsive {
+            position: relative;
+            padding-top: 56.25%;
+        }
+        
+        .youtube {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        
+        .header-prayer {
+            color: #b9b9b9;
+            font-family: 'Cormorant Garamond', serif;
+            text-align: center;
+            margin: 2rem 0 1rem 0;
+            font-size: 2rem;
+            font-weight: bolder;
+        }
+        
+        .horizontal-line {
+            color: #929292;
+            margin: 3rem auto 2rem auto;
+            width: 80%;
+        }
+        
+        .game-description-text {
+            color: #dbdbdb;
+        }
+        
+        .game-description-text {
+            font-size: 1.5rem;
+            color: #929292;
+            font-family: 'Cormorant Garamond', serif;
+            text-align: center;
+        }
+        
+        @font-face {
+            font-family: 'Cormorant Garamond';
+            src: url("https://github.com/TremendousExorcisms/website/blob/main/CormorantGaramond-SemiBoldItalic.ttf") format('truetype');
+            font-weight: 600;
+            font-style: italic;
+        }
+        
+        #logo {
+            height: intrinsic;
+        }
+        
+        #tv {
+            height: intrinsic;
+        }
